@@ -1,0 +1,23 @@
+{
+  "name": "hyva-themes/magento2-qty",
+  "description": "qty for Hyvä Themes",
+  "type": "magento2-module",
+  "require": {
+    "hyva-themes/magento2-theme-fallback": "*",
+    "magento/framework": "*"
+   
+  },
+  "authors": [{
+      "name": "Hyvä Themes B.V.",
+      "email": "info@hyva.io"
+  }],
+  "license": "see LICENSE.md",
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Hyva\\Qtym\\": "src/"
+    }
+  }
+}
