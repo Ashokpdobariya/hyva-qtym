@@ -1,4 +1,4 @@
-# magento2-luma-checkout
+# magento2-qtym
 
 Luma Fallback Checkout for Hyvä Themes
 
