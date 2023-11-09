@@ -4,7 +4,7 @@ Qty manager  for Hyvä Themes
 
 ## What does it do?
 
-It allows to use the standard qty another theme path for checkout when using the Hyva Theme
+It allows to increase and decrease quantatity on upateqty button clicked on mini-cart through Hyva-Theme 
  
 ## Installation
   
@@ -37,7 +37,7 @@ The full paths that need to be migrated are:
 ```
 
 
-## Magento backend configuration
+## Magento backend configuration but not must
 
 1. ```HYVA THEMES->Theme Fallback->General Settings->Enable```
     
