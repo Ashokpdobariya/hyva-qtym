@@ -95,7 +95,7 @@ $heroicons = $viewModels->require(HeroiconsOutline::class);
                     return;
                 }
                 const formKey = hyva.getFormKey();
-                const postUrl = BASE_URL + 'checkout/cart/updateQty/';
+                const postUrl = BASE_URL + 'qty/cart/updateQty/';
                 fetch(postUrl, {
                     "headers": {
                         "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
