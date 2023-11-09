@@ -13,7 +13,8 @@ It allows to increase and decrease quantatity on upateqty button clicked on mini
    ```
    
    composer config repositories.hyva-themes-magento2-qty git https://github.com/Ashokpdobariya/hyva-qtym.git
-   composer require hyva-themes/magento2-qty
+   composer require hyva-themes/magento2-qty or
+   composer require hyva-themes/magento2-qty:dev-main
    ```
 2. Enable module
    ```
