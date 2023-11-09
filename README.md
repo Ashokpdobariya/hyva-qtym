@@ -1,17 +1,17 @@
-# magento2-luma-checkout
+# magento2-qtym
 
-Luma Fallback Checkout for Hyvä Themes
+Qty manager  for Hyvä Themes
 
 ## What does it do?
 
-It allows to use the standard luma checkout or define another theme path for checkout when using the Hyva Theme
+It allows to use the standard qty another theme path for checkout when using the Hyva Theme
  
 ## Installation
   
 1. Install via composer
    Note: both repositories need to be configured until the package and its dependency are available through packagist.
    ```
-   composer config repositories.hyva-themes-magento2-magento2-qty git git@gitlab.hyva.io:hyva-themes/magento2-luma-checkout.git
+   
    composer config repositories.hyva-themes-magento2-qty git https://github.com/Ashokpdobariya/hyva-qtym.git
    composer require hyva-themes/magento2-qty
    ```
