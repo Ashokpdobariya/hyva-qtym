@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * Zealous Commerce / qtyManager
+ * Copyright © Zealous Commerce. All rights reserved.
+ * This product is licensed per Magento install
+ */
 namespace Hyva\Qtym\Controller\Cart;
 
 use Magento\Framework\App\Action\Action;
