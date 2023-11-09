@@ -11,9 +11,9 @@ It allows to use the standard luma checkout or define another theme path for che
 1. Install via composer
    Note: both repositories need to be configured until the package and its dependency are available through packagist.
    ```
-   composer config repositories.hyva-themes/magento2-luma-checkout git git@gitlab.hyva.io:hyva-themes/magento2-luma-checkout.git
-   composer config repositories.hyva-themes/magento2-theme-fallback git git@gitlab.hyva.io:hyva-themes/magento2-theme-fallback.git
-   composer require hyva-themes/magento2-luma-checkout
+   composer config repositories.hyva-themes-magento2-magento2-qty git git@gitlab.hyva.io:hyva-themes/magento2-luma-checkout.git
+   composer config repositories.hyva-themes-magento2-qty git https://github.com/Ashokpdobariya/hyva-qtym.git
+   composer require hyva-themes/magento2-qty
    ```
 2. Enable module
    ```
@@ -29,7 +29,7 @@ bin/magento setup:upgrade
 This will ensure configuration settings stored in the database are properly migrated to the `Hyva_ThemeFallback`.
 
 Should the configuration settings be locked in `app/etc/config.php`, you have to migrate all paths in the
-section `hyva_luma_checkout` manually to the path `hyva_theme_fallback`.  
+section `hyva_qtym` manually to the path `hyva_theme_fallback`.  
 The full paths that need to be migrated are:
 ```
 'hyva_luma_checkout/general/enable'          => 'hyva_theme_fallback/general/enable'
@@ -53,10 +53,6 @@ The full paths that need to be migrated are:
 3. ```HYVA THEMES->Theme Fallback->General Settings->The list of URL's parts```
    
    The configuration path is `hyva_theme_fallback/general/list_part_of_url`
-   
-   The default values are `checkout/index`, `paypal/express/review` and `paypal/express/saveShippingMethod`.
-   If they are changed, checking "Use system values" will restore the default settings.
-
 
 ## How does it work?
 
